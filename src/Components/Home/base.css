@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container div div {
+    margin: 80px 300px;
+}
+
+.link-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.anchor {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 100;
+    background-color: #7f8c8d;
+    color: #fff;
+}
+.anchor:hover {
+    background-color: #95a5a6;
+}
